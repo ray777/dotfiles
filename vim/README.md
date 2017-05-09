@@ -16,7 +16,7 @@ Download plug.vim and put it in the "autoload" directory.
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-Update .vimrc
+Update .vimrc.
 ```sh
 " vim-plug
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
@@ -36,7 +36,7 @@ Download plug.vim and put it in the "autoload" directory.
 ```sh
 brew install fzf
 ```
-Update .vimrc within vim-plug section
+Update .vimrc within vim-plug section.
 ```sh
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 ```
