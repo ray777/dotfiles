@@ -7,7 +7,7 @@ TIL
 3. map key
 
 ## Vim-plug
-A minimalist Vim plugin manager
+A minimalist Vim plugin manager  
 https://github.com/junegunn/vim-plug
 
 ### Installation
@@ -28,7 +28,7 @@ call plug#end()
 
 
 ## fzf.vim
-fzf is a general-purpose command-line fuzzy find
+fzf is a general-purpose command-line fuzzy find  
 https://github.com/junegunn/fzf.vim
 
 ### Installation
