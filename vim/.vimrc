@@ -13,5 +13,23 @@ set hlsearch
 
 execute pathogen#infect()
 
-"airline"
+let mapleader = "\<Space>"
+
+" airline
 set laststatus=2
+
+" vv to generate new vertical split
+nnoremap <silent> vv <C-w>v
+
+map <leader>n :NERDTreeToggle<CR>
+map <leader>o :FZF<CR>
+
+" vim-plug
+" Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
+call plug#begin('~/.vim/plugged')
+
+Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+
+" Initialize plugin system
+call plug#end()
+
