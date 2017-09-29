@@ -1,5 +1,6 @@
 " Syntax highlighting
 syntax on
+colorscheme default
 
 " Line numbers
 set number " show line number
