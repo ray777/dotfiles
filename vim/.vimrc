@@ -1,6 +1,12 @@
+" Syntax highlighting
+syntax on
+
+" Line numbers
+set number " show line number
+set relativenumber " show line number relatively
+
 set nobackup
 set noswapfile
-syntax on
 set expandtab
 set shiftwidth=4
 set softtabstop=4
