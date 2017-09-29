@@ -1,4 +1,5 @@
 set nobackup
+set noswapfile
 syntax on
 set expandtab
 set shiftwidth=4
@@ -7,7 +8,7 @@ set tabstop=4
 set autoindent
 set smartindent
 set bs=2
-set autochdir
+set noautochdir
 set nu
 set hlsearch
 
