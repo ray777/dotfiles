@@ -41,3 +41,16 @@ Update .vimrc within vim-plug section.
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 ```
 
+### Dependency
+
+### fd
+fzf use `fd` instead of `find`.
+https://github.com/sharkdp/fd
+```sh
+brew install fd
+```
+
+### bash-completion
+```sh
+brew install bash-completion
+```
