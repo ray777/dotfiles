@@ -1,6 +1,4 @@
-# dotfiles
-
-## Setup environment
+# Setup environment
 - Terminal
   - [Homebrew](#homebrew)
   - [kitty](#kitty)
