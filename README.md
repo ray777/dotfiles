@@ -1,28 +1,22 @@
 # dotfiles
 
 ## Setup environment
-### Configs
-- `git clone https://github.com/ray777/dotfiles.git`
-- `cp -r dotfiles/ ~/`
-
-### Homebrew
-- https://brew.sh/
-- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- `brew install cask`
-- [kitty](#kitty)
-
-### Bash
-- [bash-completion](#bash-completion)
-- [fd](#fd)
-- [fzf](#fzf)
-
-### Tmux
-- [tmux](#tmux)
-- [reattach-to-user-namespace](#reattach-to-user-namespace)
-
-### Vim
-- [vim-plug](#vim-plug)
-- `:PlugInstall`
+- Terminal
+  - [Homebrew](#homebrew)
+  - [kitty](#kitty)
+- Configs
+  - `git clone https://github.com/ray777/dotfiles.git`
+  - `cp -r dotfiles/ ~/`
+- Bash
+  - [bash-completion](#bash-completion)
+  - [fd](#fd)
+  - [fzf](#fzf)
+- Tmux
+  - [tmux](#tmux)
+  - [reattach-to-user-namespace](#reattach-to-user-namespace)
+- Vim
+  - [vim-plug](#vim-plug)
+  - `:PlugInstall`
 
 # Reference
 
@@ -38,6 +32,11 @@
 - https://github.com/junegunn/fzf
 - `brew install fzf`
 - `/usr/local/opt/fzf/install`
+
+### Homebrew
+- https://brew.sh/
+- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- `brew install cask`
 
 ### kitty
 - https://github.com/kovidgoyal/kitty
