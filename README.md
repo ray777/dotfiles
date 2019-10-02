@@ -15,6 +15,13 @@
 - Vim
   - [vim-plug](#vim-plug)
   - `:PlugInstall`
+- Neovim
+  - migrate from ~/.vim/ to ~/.config/nvim/
+    - mkdir -p ~/.config/nvim/
+    - ln -s ~/.vimrc ~/.config/nvim/init.vim
+    - ln -s ~/.vim/colors/ ~/.config/nvim/colors
+    - mkdir -p ~/.local/share/nvim/site/
+    - ln -s ~/.vim/autoload/ ~/.local/share/nvim/site/autoload
 
 # Reference
 
