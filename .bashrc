@@ -4,6 +4,7 @@ export LANG="en_US.UTF-8"
 export LSCOLORS='Exfxcxdxbxegedabagacad'
 export CLICOLOR=1
 export PS1='\h:\W \u\$ '
+export IGNOREEOF=5
 
 alias gco='git checkout'
 alias gffp='git fetch && git fetch --prune && git pull'
