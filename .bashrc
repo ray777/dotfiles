@@ -6,6 +6,7 @@ export CLICOLOR=1
 export PS1='\h:\W \u\$ '
 
 alias gco='git checkout'
+alias gffp='git fetch && git fetch --prune && git pull'
 alias gd='clear && git diff'
 alias gl='git log --oneline --abbrev-commit --graph --decorate --color'
 alias gs='clear && git status'
