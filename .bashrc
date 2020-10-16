@@ -4,12 +4,21 @@ export LANG="en_US.UTF-8"
 export LSCOLORS='Exfxcxdxbxegedabagacad'
 export CLICOLOR=1
 export PS1='\h:\W \u\$ '
+export IGNOREEOF=5
 
 alias gco='git checkout'
+alias gffp='git fetch && git fetch --prune && git pull'
 alias gd='clear && git diff'
 alias gl='git log --oneline --abbrev-commit --graph --decorate --color'
 alias gs='clear && git status'
 alias gsl='git stash list'
+
+alias ls='exa'
+
+function gdd() {
+    local path="${1:-.}"
+    clear && git diff "$path" | diff-so-fancy | less --tabs=4 -RFX
+}
 
 # Use fd (https://github.com/sharkdp/fd) instead of the default find
 # command for listing path candidates.
