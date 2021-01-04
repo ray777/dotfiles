@@ -15,6 +15,9 @@
 - Vim
   - [vim-plug](#vim-plug)
   - `:PlugInstall`
+- Keyboard remap
+  - setxkbmap
+
 
 # Reference
 
