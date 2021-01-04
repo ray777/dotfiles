@@ -20,6 +20,11 @@ function gdd() {
     clear && git diff "$path" | diff-so-fancy | less --tabs=4 -RFX
 }
 
+function gdd() {
+    local path="${1:-.}"
+    git stash show -p stash@{0"$path"} | git apply --reverse
+}
+
 # Use fd (https://github.com/sharkdp/fd) instead of the default find
 # command for listing path candidates.
 # - The first argument to the function ($1) is the base path to start traversal
