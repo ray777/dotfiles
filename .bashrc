@@ -20,7 +20,7 @@ function gdd() {
     clear && git diff "$path" | diff-so-fancy | less --tabs=4 -RFX
 }
 
-function gdd() {
+function greverse() {
     local path="${1:-.}"
     git stash show -p stash@{0"$path"} | git apply --reverse
 }
