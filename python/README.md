@@ -8,6 +8,6 @@ Above version is unable to execute `pacman` properly due to `glibc` is missing, 
 // TODO: replace with latest archlinux version
 
 # Command
-`docker build --tag arch --file Dockerfile.arch .`
+`docker build --tag arch .`
 
 `docker run --rm -it -v $PWD:/usr/local/src/ -w=/usr/local/src/ arch`
