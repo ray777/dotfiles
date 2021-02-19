@@ -65,3 +65,11 @@ inoremap <expr> <C-n> pumvisible() ? "\<Down>"     : '<C-n><C-r>=pumvisible() ? 
 inoremap <expr> <C-p> pumvisible() ? "\<Up>"       : '<C-p><C-r>=pumvisible() ? "\<lt>Up>" : ""<CR>'
 inoremap <expr> <C-d> pumvisible() ? "\<PageDown>" : "\<C-d>"
 inoremap <expr> <C-u> pumvisible() ? "\<PageUp>"   : "\<C-u>"
+
+nnoremap <C-l> :buffers<CR>
+nnoremap <C-n> :bn<CR>
+nnoremap <C-p> :bp<CR>
+
+let mapleader="\<Space>"
+nnoremap <Leader>o :FZF<CR>
+nnoremap <Leader>n :NERDTreeToggle<CR>
