@@ -20,7 +20,7 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'tpope/vim-commentary'
 
-Plug 'liuchengxu/vista.vim'
+Plug 'preservim/nerdtree'
 
 Plug 'vim-airline/vim-airline'
 let g:airline_powerline_fonts = 1
