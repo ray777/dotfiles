@@ -5,7 +5,7 @@
 - Configs
   - `git clone https://github.com/ray777/dotfiles.git`
   - `rm ~/.bash_profile ~/.bashrc ~/.tmux.conf ~/.vimrc`
-  - `ln -s dotfiles/.bash_profile dotfiles/.bashrc dotfiles/.tmux.conf dotfiles/.vimrc ~/`
+  - `ln -s ~/dotfiles/.bash_profile ~/dotfiles/.bashrc ~/dotfiles/.tmux.conf ~/dotfiles/.vimrc ~/`
 - Bash
   - [bash-completion](#bash-completion)
   - [fd](#fd)
